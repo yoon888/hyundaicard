@@ -180,6 +180,8 @@ body {
 }
 
 .header-wrap {
+  background-color: #fff;
+  z-index: 100;
   min-width: 1400px;
   position: fixed;
   top: 0;
