@@ -1,0 +1,334 @@
+/* Spoqa Han Sans Neo */
+@font-face {
+  font-family: "Spoqa Han Sans Neo";
+  font-weight: 700;
+  src: url(../fonts/SpoqaHanSansNeo-Medium.eot);
+  src: url(../fonts/SpoqaHanSansNeo-Medium.eot?#iefix)
+    format("embedded-opentype");
+  src: url(../fonts/SpoqaHanSansNeo-Bold.woff2) format("woff2");
+  src: url(../fonts/SpoqaHanSansNeo-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Spoqa Han Sans Neo";
+  font-weight: 500;
+  src: url(../fonts/SpoqaHanSansNeo-Medium.eot);
+  src: url(../fonts/SpoqaHanSansNeo-Medium.eot?#iefix)
+    format("embedded-opentype");
+  src: url(../fonts/SpoqaHanSansNeo-Medium.woff2) format("woff2");
+  src: url(../fonts/SpoqaHanSansNeo-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Spoqa Han Sans Neo";
+  font-weight: 400;
+  src: url(../fonts/SpoqaHanSansNeo-Regular.eot);
+  src: url(../fonts/SpoqaHanSansNeo-Regular.eot?#iefix)
+    format("embedded-opentype");
+  src: url(../fonts/SpoqaHanSansNeo-Regular.woff2) format("woff2");
+  src: url(../fonts/SpoqaHanSansNeo-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Spoqa Han Sans Neo";
+  font-weight: 300;
+  src: url(../fonts/SpoqaHanSansNeo-Light.eot);
+  src: url(../fonts/SpoqaHanSansNeo-Light.eot?#iefix)
+    format("embedded-opentype");
+  src: url(../fonts/SpoqaHanSansNeo-Light.woff2) format("woff2");
+  src: url(../fonts/SpoqaHanSansNeo-Light.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Spoqa Han Sans Neo";
+  font-weight: 100;
+  src: url(../fonts/SpoqaHanSansNeo-Thin.eot);
+  src: url(../fonts/SpoqaHanSansNeo-Thin.eot?#iefix) format("embedded-opentype");
+  src: url(../fonts/SpoqaHanSansNeo-Thin.woff2) format("woff2");
+  src: url(../fonts/SpoqaHanSansNeo-Thin.woff) format("woff");
+}
+
+/* YouAndModern */
+@font-face {
+  font-family: "YouandModern";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Youandi_Modern_TextRegular.eot);
+  src: url(../fonts/Youandi_Modern_TextRegular.eot?#iefix)
+    format("embedded-opentype");
+  src: url(../fonts/Youandi_Modern_TextRegular.woff) format("woff");
+}
+@font-face {
+  font-family: "YouandModern";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Youandi_Modern_TextBold.eot);
+  src: url(./fonts/Youandi_Modern_TextBold.eot?#iefix)
+    format("embedded-opentype");
+  src: url(../fonts/Youandi_Modern_TextBold.woff) format("woff");
+}
+@font-face {
+  font-family: "YouandModern";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/Youandi_Modern_HeadExtraBold.eot);
+  src: url(../fonts/Youandi_Modern_HeadExtraBold.eot?#iefix)
+    format("embedded-opentype");
+  src: url(../fonts/Youandi_Modern_HeadExtraBold.woff) format("woff");
+}
+
+/* YouAndiNewKr */
+@font-face {
+  font-family: "YouandiNewKr";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/YouandiNewKrTitle-Light.eot); /* IE9 Compat Modes */
+  src: url(../fonts/YouandiNewKrTitle-Light.eot?#iefix)
+      format("embedded-opentype"),
+    /* IE6 ~ IE8 */ url(../fonts/YouandiNewKrTitle-Light.woff2) format("woff2"),
+    /* Supper Modern Browsers */ url(../fonts/YouandiNewKrTitle-Light.woff)
+      format("woff"),
+    /* Modern Browsers */
+      /* url(../fonts/YouandiNewKrTitle-Light.ttf) format('truetype'), */
+      url(../fonts/YouandiNewKrTitle-Light.svg) format("svg");
+}
+@font-face {
+  font-family: "YouandiNewKr";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/YouandiNewKrTitle-Regular.eot);
+  src: url(../fonts/YouandiNewKrTitle-Regular.eot#iefix)
+      format("embedded-opentype"),
+    url(../fonts/YouandiNewKrTitle-Regular.woff2) format("woff2"),
+    url(../fonts/YouandiNewKrTitle-Regular.woff) format("woff"),
+    /* url(../fonts/YouandiNewKrTitle-Regular.ttf) format('truetype'), */
+      url(../fonts/YouandiNewKrTitle-Regular.svg) format("svg");
+}
+@font-face {
+  font-family: "YouandiNewKr";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/YouandiNewKrTitle-Bold.eot);
+  src: url(../fonts/YouandiNewKrTitle-Bold.eot#iefix)
+      format("embedded-opentype"),
+    url(../fonts/YouandiNewKrTitle-Bold.woff2) format("woff2"),
+    url(../fonts/YouandiNewKrTitle-Bold.woff) format("woff"),
+    /* url(../fonts/YouandiNewKrTitle-Bold.ttf) format('truetype'), */
+      url(../fonts/YouandiNewKrTitle-Bold.svg) format("svg");
+}
+@font-face {
+  font-family: "YouandiNewKr";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/YouandiNewKrTitle-ExtraBold.eot);
+  src: url(../fonts/YouandiNewKrTitle-ExtraBold.eot#iefix)
+      format("embedded-opentype"),
+    url(../fonts/YouandiNewKrTitle-ExtraBold.woff2) format("woff2"),
+    url(../fonts/YouandiNewKrTitle-ExtraBold.woff) format("woff"),
+    /* url(../fonts/YouandiNewKrTitle-ExtraBold.ttf) format('truetype'), */
+      url(../fonts/YouandiNewKrTitle-ExtraBold.svg) format("svg");
+}
+
+@font-face {
+  font-family: "pass";
+  font-weight: 500;
+  font-style: normal;
+  src: url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAATsAA8AAAAAB2QAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABWAAAABwAAAAcg9+z70dERUYAAAF0AAAAHAAAAB4AJwANT1MvMgAAAZAAAAA/AAAAYH7AkBhjbWFwAAAB0AAAAFkAAAFqZowMx2N2dCAAAAIsAAAABAAAAAQAIgKIZ2FzcAAAAjAAAAAIAAAACAAAABBnbHlmAAACOAAAALkAAAE0MwNYJ2hlYWQAAAL0AAAAMAAAADYPA2KgaGhlYQAAAyQAAAAeAAAAJAU+ATJobXR4AAADRAAAABwAAAAcCPoA6mxvY2EAAANgAAAAEAAAABAA5gFMbWF4cAAAA3AAAAAaAAAAIAAKAE9uYW1lAAADjAAAARYAAAIgB4hZ03Bvc3QAAASkAAAAPgAAAE5Ojr8ld2ViZgAABOQAAAAGAAAABuK7WtIAAAABAAAAANXulPUAAAAA1viLwQAAAADW+JM4eNpjYGRgYOABYjEgZmJgBEI2IGYB8xgAA+AANXjaY2BifMg4gYGVgYVBAwOeYEAFjMgcp8yiFAYHBl7VP8wx/94wpDDHMIoo2DP8B8kx2TLHACkFBkYA8/IL3QB42mNgYGBmgGAZBkYGEEgB8hjBfBYGDyDNx8DBwMTABmTxMigoKKmeV/3z/z9YJTKf8f/X/4/vP7pldosLag4SYATqhgkyMgEJJnQFECcMOGChndEAfOwRuAAAAAAiAogAAQAB//8AD3jaY2BiUGJgYDRiWsXAzMDOoLeRkUHfZhM7C8Nbo41srHdsNjEzAZkMG5lBwqwg4U3sbIx/bDYxgsSNBRUF1Y0FlZUYBd6dOcO06m+YElMa0DiGJIZUxjuM9xjkGRhU2djZlJXU1UDQ1MTcDASNjcTFQFBUBGjYEkkVMJCU4gcCKRTeHCk+fn4+KSllsJiUJEhMUgrMUQbZk8bgz/iA8SRR9qzAY087FjEYD2QPDDAzMFgyAwC39TCRAAAAeNpjYGRgYADid/fqneL5bb4yyLMwgMC1H90HIfRkCxDN+IBpFZDiYGAC8QBbSwuceNpjYGRgYI7594aBgcmOAQgYHzAwMqACdgBbWQN0AAABdgAiAAAAAAAAAAABFAAAAj4AYgI+AGYB9AAAAAAAKgAqACoAKgBeAJIAmnjaY2BkYGBgZ1BgYGIAAUYGBNADEQAFQQBaAAB42o2PwUrDQBCGvzVV9GAQDx485exBY1CU3PQgVgIFI9prlVqDwcZNC/oSPoKP4HNUfQLfxYN/NytCe5GwO9/88+/MBAh5I8C0VoAtnYYNa8oaXpAn9RxIP/XcIqLreZENnjwvyfPieVVdXj2H7DHxPJH/2/M7sVn3/MGyOfb8SWjOGv4K2DRdctpkmtqhos+D6ISh4kiUUXDj1Fr3Bc/Oc0vPqec6A8aUyu1cdTaPZvyXyqz6Fm5axC7bxHOv/r/dnbSRXCk7+mpVrOqVtFqdp3NKxaHUgeod9cm40rtrzfrt2OyQa8fppCO9tk7d1x0rpiQcuDuRkjjtkHt16ctbuf/radZY52/PnEcphXpZOcofiEZNcQAAeNpjYGIAg///GBgZsAF2BgZGJkZmBmaGdkYWRla29JzKggxD9tK8TAMDAxc2D0MLU2NjENfI1M0ZACUXCrsAAAABWtLiugAA)
+    format("woff");
+}
+
+/* 변수정의 */
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+body {
+  max-width: 1920px;
+  background-color: #fff;
+  color: #111;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Noto Sans KR", sans-serif, "Apple SD Gothic Neo";
+  font-weight: 400;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* header */
+.header {
+  min-height: 80px;
+  display: block;
+  width: 100%;
+}
+
+.header-wrap {
+  min-width: 1400px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0 24px 0 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.header-wrap .logo {
+  display: flex;
+}
+
+.header-wrap .logo h1 {
+  position: relative;
+  width: 218px;
+  height: 80px;
+  margin: 0;
+  background: url("../images/page_01/logo_hyundaicard_scr.svg") no-repeat center
+    center;
+  background-size: 138px 28px;
+  transition: all 0.25s;
+}
+
+.header-wrap .logo h1 a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.header-wrap .logo .gnb {
+  display: flex;
+}
+
+.header-wrap .logo > .gnb > li {
+  height: 100%;
+}
+
+.header-wrap .logo > .gnb > li > a {
+  position: relative;
+  display: block;
+  align-items: center;
+  height: 100%;
+  padding: 28px 20px 26px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #000;
+  font-family: "YouandiNewKr", "YouandModern", "Spoqa Han Sans Neo";
+}
+
+.header-wrap .logo > .gnb > li > a.applepay {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.header-wrap .logo > .gnb > li > a.applepay img {
+  width: 52px;
+  height: 24px;
+  display: block;
+}
+
+.header-wrap .logo > .gnb > li > a.applepay::before {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 1px;
+  height: 18px;
+  background-color: #ebebeb;
+}
+
+.header-wrap .box {
+  padding: 20px 0;
+  display: flex;
+}
+
+.header-wrap .box .list {
+  display: flex;
+  margin-right: 16px;
+  align-items: center;
+}
+
+.header-wrap .box .list > li > a {
+  display: inline-block;
+  padding: 2px 8px;
+  line-height: 20px;
+  color: #5c5c5c;
+}
+
+.header-wrap .box .list > li:nth-child(3) {
+  padding-right: 9px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.header-wrap .box .list > li:nth-child(3)::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -6px;
+  width: 1px;
+  height: 12px;
+  background: #e0e0e0;
+}
+
+.search_box {
+  position: relative;
+  width: 240px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+.search_box a {
+  display: block;
+  position: relative;
+  padding-right: 10px;
+  padding-left: 40px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  border: 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.search_box a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  width: 28px;
+  height: 28px;
+  background: url("../images/page_01/ico_searchB.png") no-repeat 0% 50%;
+  background-size: 28px 28px;
+  opacity: 0.4;
+  transform: translateY(-50%);
+}
+
+.search_box a P {
+  font-size: 14px;
+  line-height: 22px;
+  white-space: nowrap;
+}
