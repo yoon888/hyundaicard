@@ -26,11 +26,21 @@
 .banner .slide {
   width: 1194px;
   height: 100%;
+  display: flex;
 }
 
 .banner .slide ul {
   display: flex;
   justify-content: space-between;
+}
+
+.banner .slide ul li {
+  transition: 0.3s;
+  transform: translateY(0);
+}
+
+.banner .slide ul li:hover {
+  transform: translateY(-12px);
 }
 
 .banner .slide ul li a {
@@ -128,6 +138,12 @@
   margin-top: 46px;
   margin-right: auto;
   width: 25%;
+  transform: translateY(0);
+  transition: 0.3s;
+}
+
+.card_list > li:hover {
+  transform: translateY(-12px);
 }
 
 .card_list li:nth-child(1),
@@ -177,6 +193,13 @@
 .main-content .grid_list li {
   width: calc((100% - 96px) / 4);
   margin-right: 24px;
+  transform: translateY(0);
+  transition: 0.3s;
+  margin-top: 51px;
+}
+
+.main-content .grid_list li:hover {
+  transform: translateY(-12px);
 }
 
 .main-content .grid_list li a .grid-image {

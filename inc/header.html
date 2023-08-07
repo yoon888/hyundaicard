@@ -4,7 +4,114 @@
       <a href="#x"></a>
     </h1>
     <ul class="gnb">
-      <li><a href="#x">My Account</a></li>
+      <li>
+        <a href="#x">My Account</a>
+        <div class="h_box">
+          <div class="h_boxInner">
+            <div class="h_right">
+              <div class="clearfix">
+                <div class="list_dep3">
+                  <p>이용내역</p>
+                  <ul class="list">
+                    <li><a href="#x">이용대금명세서</a></li>
+                    <li><a href="#x">카드 이용내역(매출전표조회)</a></li>
+                    <li><a href="#x">카드이용알림서비스</a></li>
+                    <li><a href="#x">금융 이용내역</a></li>
+                    <li><a href="#x">유료상품 가입정보</a></li>
+                  </ul>
+                </div>
+                <div class="list_dep3">
+                  <p>이용대금 결제</p>
+                  <ul class="list">
+                    <li><a href="#x">이용대금명세서</a></li>
+                    <li><a href="#x">카드 이용내역(매출전표조회)</a></li>
+                    <li><a href="#x">카드이용알림서비스</a></li>
+                    <li><a href="#x">금융 이용내역</a></li>
+                    <li><a href="#x">유료상품 가입정보</a></li>
+                  </ul>
+                </div>
+                <div class="list_dep3">
+                  <p>내 카드 관리</p>
+                  <ul class="list">
+                    <li><a href="#x">이용대금명세서</a></li>
+                    <li><a href="#x">카드 이용내역(매출전표조회)</a></li>
+                    <li><a href="#x">카드이용알림서비스</a></li>
+                    <li><a href="#x">금융 이용내역</a></li>
+                    <li><a href="#x">유료상품 가입정보</a></li>
+                  </ul>
+                </div>
+                <div class="list_dep3">
+                  <p>케어·안심서비스</p>
+                  <ul class="list">
+                    <li><a href="#x">이용대금명세서</a></li>
+                    <li><a href="#x">카드 이용내역(매출전표조회)</a></li>
+                    <li><a href="#x">카드이용알림서비스</a></li>
+                    <li><a href="#x">금융 이용내역</a></li>
+                    <li><a href="#x">유료상품 가입정보</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="clearfix">
+                <div class="list_dep3">
+                  <p>이용내역</p>
+                  <ul class="list">
+                    <li><a href="#x">이용대금명세서</a></li>
+                    <li><a href="#x">카드 이용내역(매출전표조회)</a></li>
+                    <li><a href="#x">카드이용알림서비스</a></li>
+                    <li><a href="#x">금융 이용내역</a></li>
+                    <li><a href="#x">유료상품 가입정보</a></li>
+                  </ul>
+                </div>
+                <div class="list_dep3">
+                  <p>이용대금 결제</p>
+                  <ul class="list">
+                    <li><a href="#x">이용대금명세서</a></li>
+                    <li><a href="#x">카드 이용내역(매출전표조회)</a></li>
+                    <li><a href="#x">카드이용알림서비스</a></li>
+                    <li><a href="#x">금융 이용내역</a></li>
+                    <li><a href="#x">유료상품 가입정보</a></li>
+                  </ul>
+                </div>
+                <div class="list_dep3">
+                  <p>내 카드 관리</p>
+                  <ul class="list">
+                    <li><a href="#x">이용대금명세서</a></li>
+                    <li><a href="#x">카드 이용내역(매출전표조회)</a></li>
+                    <li><a href="#x">카드이용알림서비스</a></li>
+                    <li><a href="#x">금융 이용내역</a></li>
+                    <li><a href="#x">유료상품 가입정보</a></li>
+                  </ul>
+                </div>
+                <div class="list_dep3">
+                  <p>케어·안심서비스</p>
+                  <ul class="list">
+                    <li><a href="#x">이용대금명세서</a></li>
+                    <li><a href="#x">카드 이용내역(매출전표조회)</a></li>
+                    <li><a href="#x">카드이용알림서비스</a></li>
+                    <li><a href="#x">금융 이용내역</a></li>
+                    <li><a href="#x">유료상품 가입정보</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="h_left">
+              <p>자주 찾는 메뉴</p>
+              <div class="h_login">
+                <p>로그인하면 자주 찾는 메뉴를<br />확인할 수 있습니다.</p>
+                <button><a href="#x">로그인</a></button>
+              </div>
+              <div class="h_banner">
+                <a href="#x">
+                  <img
+                    src="../images/page_01/img_gnb_right_applepay.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
       <li><a href="#x">카드</a></li>
       <li><a href="#x">혜택</a></li>
       <li><a href="#x">금융</a></li>
@@ -45,3 +152,14 @@
     </div>
   </div>
 </div>
+
+<script>
+  $(".gnb > li").hover(
+    function () {
+      $(".h_box").css("display", "block");
+    },
+    function () {
+      $(".h_box").css("display", "none");
+    }
+  );
+</script>

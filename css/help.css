@@ -2,6 +2,7 @@
 .main {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 160px;
 }
 
 /* box_top */
@@ -117,6 +118,7 @@
 }
 
 .box_subMain > ul {
+  display: flex;
   flex-wrap: wrap;
   margin-top: 64px;
 }
@@ -125,6 +127,13 @@
   flex-grow: 1;
   width: calc(100% / 3);
   padding-left: 32px;
+  margin-top: 80px;
+}
+
+.box_subMain > ul > li:nth-child(1),
+.box_subMain > ul > li:nth-child(2),
+.box_subMain > ul > li:nth-child(3) {
+  margin-top: 0;
 }
 
 .box_subMain > ul > li > a {
@@ -132,6 +141,7 @@
   background-size: 24px 24px;
   padding-right: 24px;
   display: inline-block;
+  font-weight: 700;
 }
 
 .box_subMain > ul > li > p {
@@ -141,6 +151,128 @@
   font-weight: 500;
   font-size: 16px;
 }
+
+.box_subMain .guide {
+  margin-top: 160px;
+  display: flex;
+  border-radius: 24px;
+  background-color: #f5f5f5;
+}
+
+.box_subMain .guide > .img {
+  width: 486px;
+  height: 332px;
+}
+
+.box_subMain .guide > .img img {
+  width: 100%;
+}
+
+.box_subMain .guide > .txt {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 486px);
+  justify-content: center;
+  padding-left: 82px;
+  text-align: left;
+}
+
+.box_subMain .guide > .txt > h3 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  text-align: left;
+}
+.box_subMain .guide > .txt > ul {
+  display: flex;
+  margin-top: 28px;
+}
+
+.box_subMain .guide > .txt > ul > li {
+  margin-left: 24px;
+}
+
+.box_subMain .guide > .txt > ul > li:first-child {
+  margin-left: 0;
+}
+
+.box_subMain .guide > .txt > ul > li > a {
+  background: url(../images/page_04/arrow-blue.png)no-repeat 100% 50%;
+  background-size: 16px 16px;
+  padding-right: 16px;
+  color: #0070f0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.box_subMain .list_news {
+  margin-top: 120px;
+}
+
+.box_subMain .list_news form > .head {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_subMain .list_news form > .head > h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.box_subMain .list_news form > .head > a {
+  background: url('../images/page_04/arrow-black.png') no-repeat 100% 50%;
+  background-size: 16px 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.box_subMain .list_news form > ul {
+  border-top: 1px solid #e0e0e0;
+}
+
+.box_subMain .list_news form > ul > li > a {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 24px;
+}
+
+.box_subMain .list_news form > ul > li > a > strong {
+  width: 207px;
+  color: #858585;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.box_subMain .list_news form > ul > li > a > p {
+  width: calc(100% - 298px);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.box_subMain .list_news form > ul > li > a > p span.new {
+  display: inline-block;
+  margin-left: 6px;
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.box_subMain .list_news form > ul > li > a span.date {
+  width: 91px;
+  text-align: right;
+  color: #858585;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+
 
 /* footer */
 .footer_wrap {
