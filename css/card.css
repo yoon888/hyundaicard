@@ -1,13 +1,15 @@
-.header {
+header {
   min-height: 128px;
 }
 
 .main {
   width: 100%;
   padding-bottom: 160px;
+  position: relative;
 }
 
 .top {
+  max-width: inherit;
   min-width: 1200px;
   margin: 0 auto;
   height: calc(100vh - 128px);
@@ -67,6 +69,8 @@
   background-color: #000;
   color: #fff;
   font-weight: 700;
+  border: none;
+  cursor: pointer;
 }
 
 .apply_btn .noti_msg {
@@ -108,6 +112,7 @@
   width: 300px;
   border-radius: 24px;
   border: 1px solid #ddd;
+  cursor: pointer;
 }
 
 .member_fee > p {
@@ -194,11 +199,18 @@
   text-align: left;
 }
 
-.card_benefit_wrap .cont .voucher_list dl {
+.card_benefit_wrap .cont .voucher_list1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card_benefit_wrap .cont .voucher_list1 dl {
   margin-top: 24px;
 }
 
-.card_benefit_wrap .cont .voucher_list dl dt.h3 {
+.card_benefit_wrap .cont .voucher_list1 dl dt.h3 {
   font-size: 34px;
   line-height: 44px;
   text-align: left;
@@ -206,7 +218,7 @@
   white-space: nowrap;
 }
 
-.card_benefit_wrap .cont .voucher_list dl dt.p {
+.card_benefit_wrap .cont .voucher_list1 dl dt.p {
   margin-top: 12px;
   line-height: 22px;
   font-weight: 500;
@@ -218,11 +230,16 @@
   top: 430px;
   right: 166px;
   background-image: url(../images/page_02/card_benefit_card.png);
-  opacity: 1;
+  opacity: 0;
   background-size: 100% 100%;
   width: 350px;
   height: 400px;
   box-shadow: none;
+}
+
+.card_benefit_wrap .card.on {
+  opacity: 1;
+  transition: 0.25s;
 }
 
 .card_design_container {
@@ -243,6 +260,7 @@
 
 .card_design_container .card_design_wrap.fixed {
   position: fixed;
+  bottom: 0;
 }
 
 .card_design_container .card_design_wrap.fixed ul {
@@ -344,8 +362,8 @@
 }
 
 .voucher_list > dl {
-  width: 50%;
   margin-top: 64px;
+  width: 50%;
 }
 
 .voucher_list > dl > dt {
@@ -855,4 +873,247 @@
 .infoList2 > .bold > .infoListInner li,
 .infoList2 > .bold {
   font-weight: bold !important;
+}
+
+.footer_wrap {
+  display: none;
+}
+
+.apply_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 390px;
+  /* margin: 160px auto; */
+  width: 588px;
+  background-color: #fff;
+  border-radius: 40px;
+  z-index: 20;
+  display: none;
+}
+
+.apply_modal .m_body > h1 {
+  padding: 40px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.apply_modal .m_btn {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  margin-left: -6px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.apply_modal .m_btn > button {
+  min-width: 248px;
+  background-color: #ebebeb;
+  height: 48px;
+  padding: 13px 4px;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.apply_modal .m_btn > button:nth-child(2) {
+  margin-left: 18px;
+  background-color: #000;
+  color: #fff;
+}
+
+.apply_modal .m_btn > button:nth-child(1):hover {
+  background-color: #d6d6d6;
+}
+
+.apply_modal .m_btn > button:nth-child(2):hover {
+  background-color: #5c5c5c;
+}
+
+.m_close {
+  display: block;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 32px;
+  height: 32px;
+}
+
+.m_close .btn_close {
+  background: url(../images/page_02/cls_btn.png) no-repeat 50% 50%;
+  background-size: 32px 32px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.m_close .btn_close:hover {
+  background: url("../images/page_02/ico_light_pressed.png") no-repeat 50% 50%;
+  background-size: 32px 32px;
+}
+
+.dimm {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  z-index: 18;
+}
+
+.memberFee_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 40px;
+  z-index: 20;
+  width: 588px;
+  display: none;
+}
+
+.memberFee_modal > .m_head {
+  padding: 40px 56px 11px 40px;
+}
+
+.memberFee_modal > .m_head > h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+}
+
+.memberFee_modal > .m_body {
+  padding-bottom: 40px;
+  padding: 0 40px 40px;
+  text-align: left;
+}
+
+.memberFee_modal > .m_body > ul {
+  margin-top: 25px;
+}
+
+.memberFee_modal > .m_body > ul > li.main-txt {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-left: 8px;
+}
+
+.memberFee_modal > .m_body > ul > li.sub-txt {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #707070;
+  margin-bottom: 16px;
+  padding-left: 8px;
+}
+
+.memberFee_modal > .m_body > ul > li.sub-txt:last-child {
+  margin-bottom: 0;
+  padding-top: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.voucher_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 40px;
+  z-index: 20;
+  width: 996px;
+  display: none;
+}
+
+.voucher_modal > .m_head {
+  padding: 82px 80px 16px 80px;
+}
+
+.voucher_modal > .m_head > h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: left;
+}
+
+.voucher_modal > .m_body {
+  padding: 26px 80px 80px 80px;
+}
+
+.voucher_modal > .m_body .m_tit {
+  margin-bottom: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.voucher_modal > .m_body .m_list {
+  border-top: 1px solid #949494;
+}
+
+.voucher_modal > .m_body .m_list li {
+  display: flex;
+  padding: 16px 24px;
+  border-bottom: 1px solid #ebebeb;
+  align-items: center;
+}
+
+.voucher_modal > .m_body .m_list li .img {
+  width: 64px;
+  height: 64px;
+  margin-right: 32px;
+}
+
+.voucher_modal > .m_body .m_list li .m_txt {
+  width: calc(100% - 72px);
+}
+
+.voucher_modal > .m_body .m_list li .m_txt > h3 {
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.voucher_modal > .m_body .m_list li .m_txt > p {
+  line-height: 22px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.voucher_modal .m_bottom {
+  margin-top: 40px;
+}
+
+.voucher_modal .m_bottom > p {
+  line-height: 22px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.voucher_modal .m_bottom > p > a {
+  padding-right: 28px;
+  display: inline-block;
+  position: relative;
+}
+
+.voucher_modal .m_bottom > p > a::before {
+  position: absolute;
+  right: 0;
+  background: url("../images/page_02/voucher_modal_arrow.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  content: "";
+  background-size: 24px;
 }

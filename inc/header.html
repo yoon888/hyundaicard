@@ -1,7 +1,7 @@
 <div class="header-wrap">
   <div class="logo">
     <h1>
-      <a href="#x"></a>
+      <a href="../pages/main.html"></a>
     </h1>
     <ul class="gnb">
       <li>
@@ -116,7 +116,7 @@
       <li><a href="#x">혜택</a></li>
       <li><a href="#x">금융</a></li>
       <li><a href="#x">컬쳐</a></li>
-      <li><a href="#x">고객지원</a></li>
+      <li><a href="../pages/help.html" class="active">고객지원</a></li>
       <li>
         <a href="#x" class="applepay">
           <img src="../images/page_01/ico_applepay_s.png" alt="" />
@@ -162,4 +162,18 @@
       $(".h_box").css("display", "none");
     }
   );
+
+  var navOffsetValue = $(".header").offset().top;
+  console.log(navOffsetValue);
+
+  $(window).scroll(function () {
+    var scrollTopValue = $(document).scrollTop();
+    console.log(scrollTopValue);
+
+    if (scrollTopValue > navOffsetValue) {
+      $(".header").addClass("fixed");
+    } else {
+      $(".header").removeClass("fixed");
+    }
+  });
 </script>
