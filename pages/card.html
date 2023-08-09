@@ -534,16 +534,28 @@
         }
       });
 
-      $(window).scroll(function () {
-        var cardList = $(document).scrollTop();
-        console.log(cardList);
+      $(window).scroll(
+        function () {
+          var cardList = $(document).scrollTop();
+          console.log(cardList);
 
-        if (cardList > 2300) {
-          $(".card_design_container .card_design_wrap").addClass("fixed");
-        } else {
-          $(".card_design_container .card_design_wrap").removeClass("fixed");
+          if (cardList > 2300) {
+            $(".card_design_container .card_design_wrap").addClass("fixed");
+          } else {
+            $(".card_design_container .card_design_wrap").removeClass("fixed");
+          }
+          if (cardList < 4200) {
+            $(".card_design_container .card_design_wrap")
+              .removeClass("fixed")
+              .addClass("after");
+          }
         }
-      });
+        // else {
+        //   $(".card_design_container .card_design_wrap")
+        //     .removeClass("fixed")
+        //     .addClass("after");
+        // }
+      );
 
       $(".apply_btn").click(function () {
         $(".dimm").show();

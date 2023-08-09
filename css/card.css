@@ -258,6 +258,11 @@ header {
   z-index: 100;
 }
 
+.card_design_container .card_design_wrap.after {
+  top: unset;
+  bottom: 0;
+}
+
 .card_design_container .card_design_wrap.fixed {
   position: fixed;
   bottom: 0;
