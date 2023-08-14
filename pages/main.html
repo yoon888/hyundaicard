@@ -387,7 +387,7 @@
               <ul class="box_login">
                 <li class="active">
                   <a href="#x">
-                    <span class="on">간편번호</span>
+                    <span>간편번호</span>
                   </a>
                 </li>
                 <li>
@@ -397,33 +397,57 @@
                 </li>
               </ul>
               <div class="login_tab">
-                <p>현대카드 홈페이지 간편번호<br />6자리를 설정해 주세요</p>
-                <div class="login_pin">
-                  <label for="inputPinnum" class="ally"></label>
-                  <input
-                    class="bg_pin"
-                    type="password"
-                    value="******"
-                    title="간편번호 입력 샘플 이미지"
-                  />
-                  <input
-                    type="password"
-                    class="pin"
-                    id="inputPinNumber"
-                    maxlength="6"
-                    value="readonly"
-                  />
+                <div class="pin_login">
+                  <p>현대카드 홈페이지 간편번호<br />6자리를 설정해 주세요</p>
+                  <div class="login_pin">
+                    <label for="inputPinnum" class="ally"></label>
+                    <input
+                      class="bg_pin"
+                      type="password"
+                      value="******"
+                      title="간편번호 입력 샘플 이미지"
+                    />
+                    <input
+                      type="password"
+                      class="pin"
+                      id="inputPinNumber"
+                      maxlength="6"
+                      value="readonly"
+                    />
+                  </div>
+                  <div class="bottom_login">
+                    <a href="#x">
+                      <span>간편번호 등록</span>
+                    </a>
+                  </div>
+                  <div class="join">
+                    <a href="#x">
+                      <span>회원가입</span>
+                    </a>
+                  </div>
                 </div>
-                <div class="bottom_login">
-                  <a href="#x">
-                    <span>간편번호 등록</span>
-                  </a>
+              </div>
+              <div class="login_tab">
+                <div class="app_login">
+                  <p>현대카드 앱 실행 후 '앱카드 메뉴'에서<br />QR코드 스캔 또는 숫자코드 입력을<br>선택해 주세요</p>
+                  <p class="timer">남은 시간 1:16</p>
+                  <div class="qrcode">
+                    <div class="qrcode_img">
+                      <img src="../images/page_01/QRCODE.png" alt="">
+                    </div>
+                    <span>또는</span>
+                    <div class="qrcode_num">9525048</div>
+                  </div>
+                  <div class="login_bottom">
+                    <a href="#x" class="downloadApp">
+                      <span>앱 다운로드</span>
+                    </a>
+                    <a href="#x" class="join">
+                      <span>회원가입</span>
+                    </a>
+                  </div>
                 </div>
-                <div class="join">
-                  <a href="#x">
-                    <span>회원가입</span>
-                  </a>
-                </div>
+
               </div>
             </div>
 
@@ -579,6 +603,15 @@
         slidesToShow: 1,
         autoplay:true,
       });
+
+      console.log($('.box_login li'))
+    $('.box_login li').click(function(){
+        $('.box_login li').removeClass('active')
+        $(this).addClass('active')
+
+        $('.login_tab > div').css('display','none')
+        $('.login_tab > div').eq($(this).index()).css('display','block')
+    })
 
 
     </script>

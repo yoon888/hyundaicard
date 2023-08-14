@@ -259,8 +259,12 @@ header {
 }
 
 .card_design_container .card_design_wrap.after {
-  top: unset;
-  bottom: 0;
+  position: sticky;
+  bottom: 200px;
+}
+
+.card_design_container .card_design_wrap.after ul {
+  transform: scale(0.7) translateY(-100px);
 }
 
 .card_design_container .card_design_wrap.fixed {
@@ -829,6 +833,7 @@ header {
   font-weight: 500;
   position: relative;
   margin-top: 14px;
+  white-space: nowrap;
 }
 
 .infoBox .infoList1 li:first-child,

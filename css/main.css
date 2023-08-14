@@ -266,12 +266,45 @@ header {
 
 .main-content .grid_list li a .grid-image {
   background-color: #000000;
-  background-image: url(../images/page_01/main-contents-1.png);
   background-size: cover;
   height: 280px;
   padding: 28px;
   border-radius: 16px;
   width: 100%;
+}
+
+.main-content .grid_list li:nth-child(1) a .grid-image {
+  background-image: url(../images/page_01/main-contents-1.png);
+}
+.main-content .grid_list li:nth-child(2) a .grid-image {
+  background-image: url(../images/page_01/main-contents-2.png);
+}
+.main-content .grid_list li:nth-child(3) a .grid-image {
+  background-image: url(../images/page_01/main-contents-3.png);
+}
+.main-content .grid_list li:nth-child(4) a .grid-image {
+  background-image: url(../images/page_01/main-contents-4.png);
+}
+.main-content .grid_list li:nth-child(5) a .grid-image {
+  background-image: url(../images/page_01/main-contents-5.png);
+}
+.main-content .grid_list li:nth-child(6) a .grid-image {
+  background-image: url(../images/page_01/main-contents-6.png);
+}
+.main-content .grid_list li:nth-child(7) a .grid-image {
+  background-image: url(../images/page_01/main-contents-7.png);
+}
+.main-content .grid_list li:nth-child(8) a .grid-image {
+  background-image: url(../images/page_01/main-contents-8.png);
+}
+.main-content .grid_list li:nth-child(9) a .grid-image {
+  background-image: url(../images/page_01/main-contents-9.png);
+}
+.main-content .grid_list li:nth-child(10) a .grid-image {
+  background-image: url(../images/page_01/main-contents-10.png);
+}
+.main-content .grid_list li:nth-child(11) a .grid-image {
+  background-image: url(../images/page_01/main-contents-1.png);
 }
 
 .main-content .grid_list li a > p {
@@ -305,6 +338,11 @@ header {
   width: 280px;
 }
 
+.right .right_content.fixed {
+  position: absolute;
+  right: 0;
+}
+
 .right_head {
   display: flex;
   height: 64px;
@@ -336,6 +374,7 @@ header {
   width: 100%;
   align-items: center;
   height: 48px;
+  margin-bottom: 36px;
 }
 
 .login .box_login > li {
@@ -357,8 +396,9 @@ header {
   height: 100%;
 }
 
-.login .box_login > li.active a {
+.login .box_login > li.active a span {
   color: #000;
+  font-weight: 700;
 }
 
 .login .box_login > li a::before {
@@ -384,19 +424,20 @@ header {
   text-align: center;
 }
 
-.login .box_login > li a span.on {
-  font-weight: 700;
-  color: #000;
+.app_login {
+  display: none;
 }
 
-.login_tab {
-  padding-top: 36px;
-}
-
-.login_tab p {
+.login_tab .pin_login p,
+.login_tab .app_login p {
   line-height: 20px;
   font-weight: 500;
   text-align: center;
+}
+
+.login_tab .app_login .timer {
+  margin-top: 8px;
+  color: #0070f0;
 }
 
 .login_pin {
@@ -405,6 +446,42 @@ header {
   height: auto;
   max-height: 58px;
   position: relative;
+}
+
+.qrcode {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  padding-right: 19px;
+  padding-left: 14px;
+  display: flex;
+  height: 100px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.qrcode .qrcode_img {
+  width: 100px;
+  display: flex;
+}
+
+.qrcode .qrcode_img img {
+  width: 100px;
+  height: 100px;
+}
+
+.qrcode > span {
+  width: 60px;
+  color: #5c5c5c;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.qrcode_num {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 .ally {
@@ -462,6 +539,33 @@ header {
   color: #fff;
 }
 
+.login_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login_bottom a {
+  align-items: center;
+  display: flex;
+}
+
+.login_bottom .downloadApp {
+  color: #5c5c5c;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.login_bottom .downloadApp::before {
+  margin-right: 6px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("../images/page_01/badge_Hyundaicard.png");
+  background-size: 16px 16px;
+  content: "";
+}
+
 .join {
   display: flex;
   height: 48px;
@@ -470,12 +574,12 @@ header {
   text-align: right;
 }
 
-.join a {
+.join {
   color: #5c5c5c;
   line-height: 20px;
 }
 
-.join a span {
+.join span {
   background: url("../images/page_01/join_arrow.png") no-repeat 100% 50%;
   background-size: 16px 16px;
   padding-right: 16px;
